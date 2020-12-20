@@ -1,0 +1,37 @@
+*{margin: 0}
+html{font-size: 10px;}
+body{font-size: 1rem;}
+a{text-decoration: none;}
+
+header{width: 100%;position: fixed;background-color: #06438A;}
+header > nav{margin: auto; width: 102.4rem; height: 8rem;
+  display: flex; justify-content: space-between; align-items: center;}
+
+
+header > nav > .menu {display: inline-block;}
+header > nav > .menu > ul {list-style: none;}
+header > nav > .menu > ul > li {float: left; margin: 0rem 2rem;}
+header > nav > .menu > ul > li > a {font-family: 'Noto Sans KR', sans-serif;
+color: black; font-size: 1.5rem; font-weight: 900;}
+header > nav > .menu > ul > li > a:hover {color: gray;}
+
+
+section > .keyvisual {background-image: url('../img/02_keyvisual.png');height: 65rem;}
+section > .keyvisual > .keyvisual_wrap {margin: auto; width: 102.4rem; height: 100px;}
+section > .keyvisual > .keyvisual_wrap > .keyvisual_title {padding-top: 8rem;}
+
+
+section > .profile{padding-top: 4rem; text-align: center;}
+
+section > .bottom{align-items: center; padding-bottom: 30rem;}
+section > .bottom > .bot_tit{margin: auto;text-align: left;width:128rem;padding-top: 10rem;}
+section > .bottom > .bottom_wrap{padding-top: 5.5rem; margin: auto; width: 102.4rem;display: flex;}
+
+
+.coupang {background-size: auto;}
+
+
+footer{background-color: #06438A;height: 11rem;}
+footer > .footer_wrap{margin: auto;width: 102.4rem;}
+footer > .footer_wrap > .footer_logo{float: left;padding-top: 4.2rem;}
+footer > .footer_wrap > .footer_txt{float: right;padding-top: 3rem;text-align: right;font-family: 'Noto Sans KR', sans-serif;font-size: 1.6rem;font-weight: 300;letter-spacing: -0.03rem;color: #ffffff;}
